@@ -1,5 +1,5 @@
 
-#' mcvpdf
+#' mvnpdf
 #'
 #' @param x your dataframe
 #' @param mean vector of mean
