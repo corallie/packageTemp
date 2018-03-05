@@ -2,7 +2,7 @@
 % Please edit documentation in R/mvnpdf.R
 \name{mvnpdf}
 \alias{mvnpdf}
-\title{mcvpdf}
+\title{mvnpdf}
 \usage{
 mvnpdf(x, mean = rep(0, nrow(x)), varcovM = diag(nrow(x)), Log = TRUE)
 }
@@ -19,5 +19,5 @@ mvnpdf(x, mean = rep(0, nrow(x)), varcovM = diag(nrow(x)), Log = TRUE)
 list of vector, matrix x and the value of density
 }
 \description{
-mcvpdf
+mvnpdf
 }
