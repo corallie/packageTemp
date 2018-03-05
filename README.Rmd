@@ -12,7 +12,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/*prenomnom*/mypkgr?branch=master&svg=true)](https://ci.appveyor.com/project/*prenomnom*/mypkgr)
+[![Travis-CI Build Status](https://travis-ci.org/corallie/packageTemp.svg?branch=master)](https://travis-ci.org/corallie/packageTemp)
+ * Turn on travis for your repo at https://travis-ci.org/corallie/packageTemp
 
 # packageTemp
 
