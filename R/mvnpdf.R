@@ -10,6 +10,7 @@
 #' @export
 #'
 #' @examples
+#' x <- 1
 mvnpdf <- function(x, mean =  rep(0, nrow(x)),
                    varcovM = diag(nrow(x)), Log = TRUE) {
 
@@ -33,8 +34,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   if (!Log) {
     y <- exp(y)
   }
-
-  #return(y)
+ #return(y)
   return(list(x=x, y=y))
 }
 

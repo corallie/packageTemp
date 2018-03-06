@@ -1,3 +1,5 @@
+#'mvnpdfsmart
+#'
 #' @rdname mvnpdf
 #' @export
 mvnpdfsmart <- function(x, mean =  rep(0, nrow(x)),
